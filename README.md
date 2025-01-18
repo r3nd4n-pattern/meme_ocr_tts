@@ -40,7 +40,7 @@ It’s especially useful for bulk processing a folder full of images where you n
    - Python 3.7+ (tested with Python 3.9+ recommended).
 
 3. **Balcon**:
-   - [Balcon](https://sites.google.com/site/balc0n/home) or an equivalent TTS tool installed at:
+   - [Balcon](https://www.cross-plus-a.com/bconsole.htm) or an equivalent TTS tool installed at:
      ```
      C:\balcon\balcon.exe
      ```
@@ -73,7 +73,7 @@ It’s especially useful for bulk processing a folder full of images where you n
    ```bash
    pip install -r requirements.txt
    
-   Where requirements.txt contains:
+   **Where requirements.txt contains:**
    ```bash
       click
       tqdm
@@ -91,7 +91,7 @@ It’s especially useful for bulk processing a folder full of images where you n
 1. Open a terminal where the script is located.
 
 2. Run the script with a path to the folder containing images:
-   python main.py "C:\path\to\images\folder"
+   python meme_ocr_tts.py "C:\path\to\images\folder"
 
 3. Review text:
    The script will scan all images, run OCR, and create a file detected_texts.txt in an output folder (e.g., output-1234abcd).
