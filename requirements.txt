@@ -1,0 +1,4 @@
+google-cloud-vision==3.4.2
+Pillow==10.0.1
+tqdm==4.66.1
+click==8.1.3
