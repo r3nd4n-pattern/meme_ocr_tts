@@ -45,6 +45,7 @@ It’s especially useful for bulk processing a folder full of images where you n
      C:\balcon\balcon.exe
      ```
    - Default voice name is `ScanSoft Daniel_Full_22kHz`. You may change this in the script.
+     _You need to have ScanSoft Daniel_Full_22kHz installed for this to be used_, you can download it [here](https://www.mediafire.com/file/jtamvdgo53gt2o6/Daniel+22Khz+MLG+voice.exe/file) 
 
 4. **Google Cloud Vision Credentials**:
    - A `keys.json` file with Vision API access.
@@ -55,7 +56,6 @@ It’s especially useful for bulk processing a folder full of images where you n
    - `tqdm`
    - `google-cloud-vision`
    - `Pillow`
-   - (Optional) `asyncio` (part of Python standard library 3.7+)
 
 6. **Notepad** (or any text editor):
    - Script defaults to opening `detected_texts.txt` with `notepad`.
