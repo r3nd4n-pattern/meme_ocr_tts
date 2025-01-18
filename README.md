@@ -72,12 +72,6 @@ It’s especially useful for bulk processing a folder full of images where you n
 2. **Install the required libraries** (ideally in a virtual environment):
    ```bash
    pip install -r requirements.txt
-   
-**Where requirements.txt contains**:
-   click
-   tqdm
-   google-cloud-vision
-   Pillow
 
 3. **Add keys.json** (service account credentials) to the same folder.
    Make sure your Google Cloud project has **Vision API enabled**.
@@ -90,10 +84,11 @@ It’s especially useful for bulk processing a folder full of images where you n
 1. Open a terminal where the script is located.
 
 2. Run the script with a path to the folder containing images:
+   ```bash
    python meme_ocr_tts.py "C:\path\to\images\folder"
 
-3. Review text:
-   The script will scan all images, run OCR, and create a file detected_texts.txt in an output folder (e.g., output-1234abcd).
+4. Review text:
+   The script will scan all images, run OCR, and create a file `detected_texts.txt` in an output folder (e.g., output-1234abcd).
    It will then open Notepad for you to edit the recognized text.
    
 5. Generate audio:
