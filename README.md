@@ -73,12 +73,12 @@ It’s especially useful for bulk processing a folder full of images where you n
    ```bash
    pip install -r requirements.txt
    
-     Where requirements.txt contains:
-         ```bash
-         click
-         tqdm
-         google-cloud-vision
-         Pillow
+Where requirements.txt contains:
+      ```bash
+      click
+      tqdm
+      google-cloud-vision
+      Pillow
 
 3. **Add keys.json** (service account credentials) to the same folder.
    Make sure your Google Cloud project has **Vision API enabled**.
