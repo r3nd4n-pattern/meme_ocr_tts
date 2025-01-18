@@ -72,9 +72,8 @@ It’s especially useful for bulk processing a folder full of images where you n
 2. **Install the required libraries** (ideally in a virtual environment):
    ```bash
    pip install -r requirements.txt
-   
-Where requirements.txt contains:
-    ```bash
+   Where requirements.txt contains:
+   ```bash
       click
       tqdm
       google-cloud-vision
